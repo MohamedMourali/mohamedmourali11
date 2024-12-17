@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="quiz.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Quizz Informatique</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="parcours.html">Parcours</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="quiz.html" class="active">Quizz</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Testez vos connaissances</h2>
+        <form id="quizForm">
+            <p>1. Que signifie HTML ?</p>
+            <input type="radio" name="q1" value="a"> HyperText Markup Language<br>
+            <input type="radio" name="q1" value="b"> Home Tool Markup Language<br>
+
+            <p>2. Que fait CSS ?</p>
+            <input type="radio" name="q2" value="a"> Gère le style des pages web<br>
+            <input type="radio" name="q2" value="b"> Crée des liens<br>
+
+            <p>3. Quel langage est utilisé pour les bases de données ?</p>
+            <input type="radio" name="q3" value="a"> Python<br>
+            <input type="radio" name="q3" value="c"> SQL<br>
+
+            <p>4. Qu'est-ce que JavaScript permet de faire ?</p>
+            <input type="radio" name="q4" value="a"> Interagir avec les éléments de la page<br>
+            <input type="radio" name="q4" value="b"> Créer des fichiers<br>
+
+            <p>5. Quelle balise HTML est utilisée pour insérer une image ?</p>
+            <input type="radio" name="q5" value="a"> &lt;img&gt;<br>
+            <input type="radio" name="q5" value="b"> &lt;image&gt;<br>
+
+            <p>6. Quelle propriété CSS est utilisée pour changer la couleur de fond ?</p>
+            <input type="radio" name="q6" value="a"> color<br>
+            <input type="radio" name="q6" value="b"> background-color<br>
+
+            <p>7. Quel protocole est utilisé pour naviguer sur le web ?</p>
+            <input type="radio" name="q7" value="a"> HTTP<br>
+            <input type="radio" name="q7" value="b"> FTP<br>
+
+            <p>8. Quel est le rôle de Git ?</p>
+            <input type="radio" name="q8" value="a"> Gestion des versions<br>
+            <input type="radio" name="q8" value="b"> Création de pages web<br>
+
+            <p>9. Que signifie SEO ?</p>
+            <input type="radio" name="q9" value="a"> Search Engine Optimization<br>
+            <input type="radio" name="q9" value="b"> Software Engineering Optimization<br>
+
+            <p>10. Quelle balise HTML est utilisée pour créer un lien hypertexte ?</p>
+            <input type="radio" name="q10" value="a"> &lt;link&gt;<br>
+            <input type="radio" name="q10" value="b"> &lt;a&gt;<br>
+
+            <p>11. Que signifie "responsive design" ?</p>
+            <input type="radio" name="q11" value="a"> Un design qui s'adapte à tous les écrans<br>
+            <input type="radio" name="q11" value="b"> Un design rapide<br>
+
+            <p>12. Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?</p>
+            <input type="radio" name="q12" value="a"> push()<br>
+            <input type="radio" name="q12" value="b"> pop()<br>
+
+            <p>13. Quelle est la différence entre id et class en HTML ?</p>
+            <input type="radio" name="q13" value="a"> id est unique, class peut être réutilisé<br>
+            <input type="radio" name="q13" value="b"> id peut être réutilisé, class est unique<br>
+
+            <p>14. Quelle est l'utilité des balises sémantiques en HTML5 ?</p>
+            <input type="radio" name="q14" value="a"> Améliorer le SEO et la structure<br>
+            <input type="radio" name="q14" value="b"> Ajouter du style aux éléments<br>
+
+            <p>15. Quel langage est utilisé pour styliser une page web ?</p>
+            <input type="radio" name="q15" value="a"> HTML<br>
+            <input type="radio" name="q15" value="b"> CSS<br>
+
+            <button type="submit">Valider</button>
+        </form>
+        <p id="resultDisplay" style="display: none;"></p>
+    </section><br>
+    <br>
+    <br>
+    
+
+    <footer>
+        <p>&copy; 2024 Mohamed Mourali. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

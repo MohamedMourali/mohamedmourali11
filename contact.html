@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="contact_form_script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Contactez-moi</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="parcours.html">Parcours</a></li>
+            <li><a href="competences.html">Compétences</a></li>
+            <li><a href="quiz.html">Quizz</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Formulaire de Contact</h2>
+        <p>Veuillez remplir ce formulaire pour nous contacter. Nous reviendrons vers vous dès que possible.</p>
+
+        <form id="contactForm">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required placeholder="Entrez votre nom">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required placeholder="Entrez votre email">
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Entrez votre message"></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+
+        <div id="successMessage" style="display: none; color: green; margin-top: 10px;"></div>
+        <div id="errorMessage" style="display: none; color: red; margin-top: 10px;"></div>
+    </section><br>
+    <br>
+    <br>
+
+
+    <footer>
+        <p>&copy; 2024 Mohamed Mourali. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
